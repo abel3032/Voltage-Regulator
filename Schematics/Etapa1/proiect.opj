@@ -1,0 +1,171 @@
+(ExpressProject "proiect"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\proiect.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\proiect-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Model Libraries"
+      (File
+         "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\SMLS14BET.lib"
+        (DisplayName
+           "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\SMLS14BET.lib")
+        (Type "PSpiceLibrary"))
+      (File
+         "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC856B.lib"
+        (DisplayName
+           "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC856B.lib")
+        (Type "PSpiceLibrary"))
+      (File
+         "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C5V6.lib"
+        (DisplayName
+           "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C5V6.lib")
+        (Type "PSpiceLibrary"))
+      (File
+         "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC846B.lib"
+        (DisplayName
+           "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC846B.lib")
+        (Type "PSpiceLibrary"))
+      (File
+         "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MJD31CG.lib"
+        (DisplayName
+           "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\MJD31CG.lib")
+        (Type "PSpiceLibrary"))
+      (File
+         "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC817-25.lib"
+        (DisplayName
+           "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BC817-25.lib")
+        (Type "PSpiceLibrary"))
+      (File
+         "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C2V7.lib"
+        (DisplayName
+           "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C2V7.lib")
+        (Type "PSpiceLibrary"))
+      (File
+         "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C5V1.lib"
+        (DisplayName
+           "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C5V1.lib")
+        (Type "PSpiceLibrary"))
+      (File
+         "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C6V8.lib"
+        (DisplayName
+           "C:\Users\alber\OneDrive\Desktop\librarii_proiect\Lib_ModelePSpice_Anexa_1\Modele_A1_lib\BZX84C6V8.lib")
+        (Type "PSpiceLibrary"))
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "alber")
+  (PartMRUSelector
+    (0
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (D1N5765
+      (FullPartName "D1N5765.Normal")
+      (LibraryName "D:\ORCADACTUALIZAT\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (QMJD31C
+      (FullPartName "QMJD31C.Normal")
+      (LibraryName
+         "D:\ORCADACTUALIZAT\TOOLS\CAPTURE\LIBRARY\PSPICE\MJD31CG.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (QBC856B
+      (FullPartName "QBC856B.Normal")
+      (LibraryName "D:\ORCADACTUALIZAT\TOOLS\CAPTURE\LIBRARY\PSPICE\BC856B.OLB")
+      (DeviceIndex "0"))
+    (QBC846B
+      (FullPartName "QBC846B.Normal")
+      (LibraryName "D:\ORCADACTUALIZAT\TOOLS\CAPTURE\LIBRARY\PSPICE\BC846B.OLB")
+      (DeviceIndex "0"))
+    (1N3880
+      (FullPartName "1N3880.Normal")
+      (LibraryName
+         "D:\ORCADACTUALIZAT\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DI.OLB")
+      (DeviceIndex "0"))
+    (1N1184
+      (FullPartName "1N1184.Normal")
+      (LibraryName
+         "D:\ORCADACTUALIZAT\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DI.OLB")
+      (DeviceIndex "0"))
+    (1N1183
+      (FullPartName "1N1183.Normal")
+      (LibraryName
+         "D:\ORCADACTUALIZAT\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DI.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\1N4148.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C5V1
+      (FullPartName "BZX84-C5V1.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\BZX84C5V1.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C2V7
+      (FullPartName "BZX84-C2V7.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\BZX84C2V7.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C6V8
+      (FullPartName "BZX84-C6V8.Normal")
+      (LibraryName
+         "C:\USERS\ALBER\ONEDRIVE\DESKTOP\LIBRARII_PROIECT\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BZX84C6V8.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C5V6
+      (FullPartName "BZX84-C5V6.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\BZX84C5V6.OLB")
+      (DeviceIndex "0"))
+    (QBC817-25
+      (FullPartName "QBC817-25.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\BC817-25.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\EVALAA.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\ORCADADV\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\ORCADADV\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 345"))
+      (Tab 0))))

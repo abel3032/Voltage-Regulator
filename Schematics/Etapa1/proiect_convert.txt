@@ -1,0 +1,9 @@
+The conversion of the project was successful.
+
+The new directory structure is as follows:
+
+C:/Users/alber/OneDrive/Desktop/P1_2023_432D_Eftimie_Albert_Gabriele_SERS_N12_OrCad/P1_2023_432D_Eftimie_Albert_Gabriele_SERS_N12_OrCad/Schematics
+    proiect.opj
+    proiect.dsn
+C:/Users/alber/OneDrive/Desktop/P1_2023_432D_Eftimie_Albert_Gabriele_SERS_N12_OrCad/P1_2023_432D_Eftimie_Albert_Gabriele_SERS_N12_OrCad/Schematics/proiect-PSpiceFiles
+C:/Users/alber/OneDrive/Desktop/P1_2023_432D_Eftimie_Albert_Gabriele_SERS_N12_OrCad/P1_2023_432D_Eftimie_Albert_Gabriele_SERS_N12_OrCad/Schematics/proiect-PSpiceFiles/SCHEMATIC1
