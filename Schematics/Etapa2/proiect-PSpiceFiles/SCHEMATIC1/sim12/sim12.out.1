@@ -1,0 +1,73 @@
+
+**** 11/07/23 21:33:19 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim12"  [ d:\proiectul_meu\proiect-pspicefiles\schematic1\sim12.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim12.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC856B.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C5V6.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC846B.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/MJD31CG.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC817-25.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C2V7.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C5V1.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C6V8.lib" 
+* From [PSPICE NETLIST] section of C:\Users\alber\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT
+V_V1         N03167 0 24Vdc
+Q_Q5         N03167 N18410 N04089 QMJD31C 
+R_R7         N04098 N04089  470 TC=0,0 
+R_R8         0 N04098  10 TC=0,0 
+Q_Q8         N15140 N16715 N08493 QBC846B 
+Q_Q9         N14785 N03180 N08493 QBC846B 
+R_R11         N14791 N03167  1k TC=0,0 
+R_R12         N14927 N03167  1k TC=0,0 
+R_R13         N03180 N03167  3.8k TC=0,0 
+D_D4         0 N03180 BZX84-C5V1 
+Q_Q11         N08493 N14010 N13859 QBC846B 
+Q_Q12         N14010 N13859 0 QBC846B 
+R_R14         0 N13859  135 TC=0,0 
+R_R16         N14010 N03167  4.56k TC=0,0 
+R_R22         N16711 N04089  3.3k TC=0,0 
+R_R23         N16715 N16711  5k TC=0,0 
+R_R24         N16719 N16715  5k TC=0,0 
+R_R25         0 N16719  10k TC=0,0 
+Q_Q15         N15140 N14785 N14927 QBC856B 
+Q_Q16         N14785 N14785 N14791 QBC856B 
+Q_Q17         N18181 N18181 N19535 QBC856B 
+Q_Q18         N18410 N18181 N18255 QBC856B 
+R_R28         N18255 N03167  1k TC=0,0 
+Q_Q19         N18410 N15140 N18734 QBC846B 
+Q_Q20         N18181 N14785 N18734 QBC846B 
+Q_Q21         N18734 N14010 N18851 QBC846B 
+R_R29         0 N18851  135 TC=0,0 
+
+**** RESUMING sim12.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N19535.
+
