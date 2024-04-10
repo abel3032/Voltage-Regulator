@@ -1,0 +1,202 @@
+
+**** 11/22/23 20:32:42 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-curent"  [ d:\proiectul_meu\proiect-pspicefiles\schematic1\curent.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "curent.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/SMLS14BET.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC856B.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C5V6.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC846B.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/MJD31CG.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC817-25.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C2V7.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C5V1.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C6V8.lib" 
+* From [PSPICE NETLIST] section of C:\Users\alber\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN I_I1 0 0.6 1m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT
+V_V1         N03167 0 24Vdc
+R_R19         N040671 N31009  100 TC=0,0 
+R_R20         N040831 N040671  100 TC=0,0 
+R_R6         N14791 N03167  1k TC=0,0 
+R_R7         N14927 N03167  1k TC=0,0 
+R_R2         N37561 N37557  2k TC=0,0 
+R_R8         N14077 N13859  100 TC=0,0 
+R_R4         N37917 N03167  3.9k TC=0,0 
+R_R14         N164851 N31009  5.6k TC=0,0 
+R_R18         0 N16719  10k TC=0,0 
+R_R9         N262161 N08832  8.2k TC=0,0 
+R_R11         0 N26301  1k TC=0,0 
+X_R17         N16719 N29483 N41118 POT PARAMS: SET=0 VALUE=10K
+R_R13         N309461 N31009  0.47 TC=0,0 
+D_D2         0 N08832 BZX84-C5V1 
+R_R1         N37557 N03167  100 TC=0,0 
+R_R3         N08832 N37561  1k TC=0,0 
+R_R5         N16874 N37917  680 TC=0,0 
+Q_Q1         N14785 N14785 N14791 QBC856B 
+Q_Q2         N15140 N14785 N14927 QBC856B 
+Q_Q3         N14785 N08832 N08493 QBC846B 
+Q_Q4         N15140 N29483 N08493 QBC846B 
+Q_Q5         N08493 N16874 N13859 QBC846B 
+Q_Q6         N16874 N13859 0 QBC846B 
+R_R10         N26301 N262161  510 TC=0,0 
+Q_Q7         N15140 N28006 N31009 QBC846B 
+Q_Q8         N15140 N26301 0 QBC846B 
+R_R21         N407651 N040831  10 TC=0,0 
+R_R22         N407811 N407651  1Meg TC=0,0 
+R_R15         N410731 N164851  220 TC=0,0 
+R_R16         N41118 N410731  68 TC=0,0 
+R_R23         N41345 N407811  100 TC=0,0 
+R_R24         N41323 N41345  10 TC=0,0 
+R_R25         N412771 N41323  10 TC=0,0 
+R_R26         0 N412771  51 TC=0,0 
+D_D3         N420231 0 SMLS14BET 
+D_D4         N43882 0 SMLS14BET 
+R_R32         N43721 N03167  330 TC=0,0 
+R_R33         N43205 N31009  100 TC=0,0 
+R_R34         N43209 N43205  100 TC=0,0 
+R_R35         N43213 N43209  100 TC=0,0 
+R_R36         N43515 N43213  100 TC=0,0 
+R_R37         N420231 N43515  82 TC=0,0 
+R_R38         N437131 N43721  220 TC=0,0 
+R_R39         N43886 N437131  330 TC=0,0 
+R_R40         N43882 N43886  330 TC=0,0 
+Q_Q9         N03167 N15140 N28006 QMJD31C 
+R_R12         N49053 N309461  0.47 TC=0,0 
+R_R41         N49053 N28006  0.47 TC=0,0 
+R_R42         0 N14077  33 TC=0,0 
+I_I1         N31009 0 DC 0Adc  
+
+**** RESUMING curent.cir ****
+.END
+
+**** 11/22/23 20:32:42 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-curent"  [ d:\proiectul_meu\proiect-pspicefiles\schematic1\curent.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               SMLS14BET       BZX84-C5V1      
+          IS  405.890000E-24    2.666500E-18 
+           N    2.4475           .82284      
+         ISR                  150.400000E-12 
+         IKF     .98529          .01176      
+          BV                    5.176        
+         IBV                     .10454      
+          RS   15.483            .51617      
+          TT                   43.858000E-09 
+         CJO   38.500000E-12  232.290000E-12 
+          VJ     .87273          .79587      
+           M     .20189          .35004      
+          EG    2.638                        
+
+
+**** 11/22/23 20:32:42 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-curent"  [ d:\proiectul_meu\proiect-pspicefiles\schematic1\curent.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC856B         QBC846B         QMJD31C         
+               PNP             NPN             NPN             
+       LEVEL    1               1               1            
+          IS   20.140000E-15   18.220000E-15   90.620200E-12 
+          EG                                    1.05         
+          BF  315.3           324.4             3.418700E+03 
+          NF     .9974           .9932          1.17603      
+         VAF   39.15           82              29.2393       
+         IKF     .079            .109            .108267     
+         ISE    6.578000E-15  289.400000E-18  537.193000E-09 
+          NE    1.45            1.4             4            
+          BR    8.68            8.29          367.353        
+          NR     .9952           .9931          5            
+         VAR    9.5            17.9             1.631        
+         IKR     .09             .09            1.15207      
+         ISC   16.330000E-15    9.982000E-12    1.157540E-09 
+          NC    1.15            1.763           1.49179      
+         ISS    0               0               0            
+          RB   10              10              22.4853       
+         RBM    5.000000E-06    5               1.000000E-12 
+         IRB    5.000000E-06    5.000000E-06    2.209370E-03 
+          RE     .663            .649         100.000000E-06 
+          RC     .718            .7014           .138633     
+         CJE   11.350000E-12   12.440000E-12  373.889000E-12 
+         VJE     .7071           .7579           .67672      
+         MJE     .3808           .3656           .575056     
+         CJC    6.395000E-12    3.347000E-12  352.510000E-12 
+         VJC     .4951           .5463           .884306     
+         MJC     .44             .391            .473486     
+        XCJC     .6288           .6193           .1          
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+         MJS     .333            .333            .5          
+          FC     .9059           .979            .8          
+          TF  654.600000E-12  490.800000E-12   10.000000E-09 
+         XTF    5.387           9.51            3.4926       
+         VTF    6.245           2.927          12.6615       
+         ITF     .2108           .3131           .052395     
+          TR   55.000000E-09   90.000000E-09    3.298030E-06 
+         XTB                                  999.997000E-15 
+         XTI                                    1.000000E-12 
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.2             2.42            2.42         
+           D     .52             .87             .87         
+
+
+
+          JOB CONCLUDED
+
+**** 11/22/23 20:32:42 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-curent"  [ d:\proiectul_meu\proiect-pspicefiles\schematic1\curent.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .13
+

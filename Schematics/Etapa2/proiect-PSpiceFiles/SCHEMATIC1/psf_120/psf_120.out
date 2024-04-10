@@ -1,0 +1,304 @@
+
+**** 11/15/23 12:48:21 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf_120"  [ d:\proiectul_meu\proiect-PSpiceFiles\SCHEMATIC1\psf_120.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "psf_120.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/SMLS14BET.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC856B.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C5V6.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC846B.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/MJD31CG.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC817-25.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C2V7.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C5V1.lib" 
+.LIB "C:/Users/alber/OneDrive/Desktop/librarii_proiect/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C6V8.lib" 
+* From [PSPICE NETLIST] section of C:\Users\alber\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TEMP 120
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT
+V_V1         N03167 0 24dc
+R_R19         N040671 N31009  100 TC=0,0 
+R_R20         N040831 N040671  100 TC=0,0 
+R_R6         N14791 N03167  1k TC=0,0 
+R_R7         N14927 N03167  1k TC=0,0 
+R_R2         N37561 N37557  2.2k TC=0,0 
+R_R8         N14077 N13859  100 TC=0,0 
+R_R4         N37917 N03167  3.9k TC=0,0 
+R_R14         N164851 N31009  5.6k TC=0,0 
+R_R18         0 N16719  10k TC=0,0 
+R_R9         N262161 N08832  8.2k TC=0,0 
+R_R11         0 N26301  1k TC=0,0 
+X_R17         N16719 N29483 N41118 POT PARAMS: SET=0 VALUE=10K
+R_R13         N309461 N31009  0.47 TC=0,0 
+D_D2         0 N08832 BZX84-C5V1 
+R_R1         N37557 N03167  100 TC=0,0 
+R_R3         N08832 N37561  1.5k TC=0,0 
+R_R5         N16874 N37917  680 TC=0,0 
+Q_Q1         N14785 N14785 N14791 QBC856B 
+Q_Q2         N15140 N14785 N14927 QBC856B 
+Q_Q3         N14785 N08832 N08493 QBC846B 
+Q_Q4         N15140 N29483 N08493 QBC846B 
+Q_Q5         N08493 N16874 N13859 QBC846B 
+Q_Q6         N16874 N13859 0 QBC846B 
+R_R10         N26301 N262161  510 TC=0,0 
+Q_Q7         N15140 N28006 N31009 QBC846B 
+Q_Q8         N15140 N26301 0 QBC846B 
+R_R21         N407651 N040831  10 TC=0,0 
+R_R22         N407811 N407651  100 TC=0,0 
+R_R15         N410731 N164851  220 TC=0,0 
+R_R16         N41118 N410731  68 TC=0,0 
+R_R23         N41345 N407811  100 TC=0,0 
+R_R24         N41323 N41345  10 TC=0,0 
+R_R25         N412771 N41323  10 TC=0,0 
+R_R26         0 N412771  51 TC=0,0 
+D_D3         N420231 0 SMLS14BET 
+D_D4         N43882 0 SMLS14BET 
+R_R32         N43721 N03167  330 TC=0,0 
+R_R33         N43205 N31009  100 TC=0,0 
+R_R34         N43209 N43205  100 TC=0,0 
+R_R35         N43213 N43209  100 TC=0,0 
+R_R36         N43515 N43213  100 TC=0,0 
+R_R37         N420231 N43515  82 TC=0,0 
+R_R38         N437131 N43721  220 TC=0,0 
+R_R39         N43886 N437131  330 TC=0,0 
+R_R40         N43882 N43886  330 TC=0,0 
+Q_Q9         N03167 N15140 N28006 QMJD31C 
+R_R12         N49053 N309461  0.47 TC=0,0 
+R_R41         N49053 N28006  0.47 TC=0,0 
+R_R42         0 N14077  33 TC=0,0 
+C_C2         0 N08832  1n  TC=0,0 
+
+**** RESUMING psf_120.cir ****
+.END
+
+**** 11/15/23 12:48:21 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf_120"  [ d:\proiectul_meu\proiect-PSpiceFiles\SCHEMATIC1\psf_120.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               SMLS14BET       BZX84-C5V1      
+          IS  405.890000E-24    2.666500E-18 
+           N    2.4475           .82284      
+         ISR                  150.400000E-12 
+         IKF     .98529          .01176      
+          BV                    5.176        
+         IBV                     .10454      
+          RS   15.483            .51617      
+          TT                   43.858000E-09 
+         CJO   38.500000E-12  232.290000E-12 
+          VJ     .87273          .79587      
+           M     .20189          .35004      
+          EG    2.638                        
+
+
+**** 11/15/23 12:48:21 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf_120"  [ d:\proiectul_meu\proiect-PSpiceFiles\SCHEMATIC1\psf_120.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC856B         QBC846B         QMJD31C         
+               PNP             NPN             NPN             
+       LEVEL    1               1               1            
+          IS   20.140000E-15   18.220000E-15   90.620200E-12 
+          EG                                    1.05         
+          BF  315.3           324.4             3.418700E+03 
+          NF     .9974           .9932          1.17603      
+         VAF   39.15           82              29.2393       
+         IKF     .079            .109            .108267     
+         ISE    6.578000E-15  289.400000E-18  537.193000E-09 
+          NE    1.45            1.4             4            
+          BR    8.68            8.29          367.353        
+          NR     .9952           .9931          5            
+         VAR    9.5            17.9             1.631        
+         IKR     .09             .09            1.15207      
+         ISC   16.330000E-15    9.982000E-12    1.157540E-09 
+          NC    1.15            1.763           1.49179      
+         ISS    0               0               0            
+          RB   10              10              22.4853       
+         RBM    5.000000E-06    5               1.000000E-12 
+         IRB    5.000000E-06    5.000000E-06    2.209370E-03 
+          RE     .663            .649         100.000000E-06 
+          RC     .718            .7014           .138633     
+         CJE   11.350000E-12   12.440000E-12  373.889000E-12 
+         VJE     .7071           .7579           .67672      
+         MJE     .3808           .3656           .575056     
+         CJC    6.395000E-12    3.347000E-12  352.510000E-12 
+         VJC     .4951           .5463           .884306     
+         MJC     .44             .391            .473486     
+        XCJC     .6288           .6193           .1          
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+         MJS     .333            .333            .5          
+          FC     .9059           .979            .8          
+          TF  654.600000E-12  490.800000E-12   10.000000E-09 
+         XTF    5.387           9.51            3.4926       
+         VTF    6.245           2.927          12.6615       
+         ITF     .2108           .3131           .052395     
+          TR   55.000000E-09   90.000000E-09    3.298030E-06 
+         XTB                                  999.997000E-15 
+         XTI                                    1.000000E-12 
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.2             2.42            2.42         
+           D     .52             .87             .87         
+
+
+**** 11/15/23 12:48:21 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf_120"  [ d:\proiectul_meu\proiect-PSpiceFiles\SCHEMATIC1\psf_120.sim ] 
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =  120.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 BZX84-C5V1      SMLS14BET                  
+
+         IS        1.627E-12      1.080E-17  
+         VJ        6.422E-01      7.428E-01  
+        CJO        2.510E-10      3.995E-11  
+         RS        5.162E-01      1.548E+01  
+        IKF        1.176E-02      9.853E-01  
+         BV        5.176E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC856B        QBC846B        QMJD31C    
+
+         BF        3.153E+02      3.244E+02      3.419E+03  
+        ISE        1.263E-11      7.276E-13      5.926E-06  
+        VJE        5.259E-01      5.924E-01      4.861E-01  
+        CJE        1.262E-11      1.360E-11      4.425E-10  
+         RE        6.630E-01      6.490E-01      1.000E-04  
+         RB        1.000E+01      1.000E+01      2.249E+01  
+         BR        8.680E+00      8.290E+00      3.674E+02  
+        ISC        2.252E-10      5.006E-09      7.232E-07  
+        VJC        2.482E-01      3.153E-01      7.580E-01  
+        CJC        7.903E-12      3.949E-12      3.826E-10  
+         RC        7.180E-01      7.014E-01      1.386E-01  
+        RBM        5.000E-06      5.000E+00      1.000E-12  
+         IS        1.161E-09      1.050E-09      1.342E-06  
+        ISS        0.000E+00      0.000E+00      0.000E+00  
+        VJS        5.821E-01      5.821E-01      5.821E-01  
+        CJS        0.000E+00      0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01      1.000E+01  
+
+
+**** 11/15/23 12:48:21 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf_120"  [ d:\proiectul_meu\proiect-PSpiceFiles\SCHEMATIC1\psf_120.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =  120.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N03167)   24.0000 (N08493)    4.5631 (N08832)    5.0713 (N13859)     .5231     
+
+(N14077)     .1298 (N14785)   19.5700 (N14791)   20.0840 (N14927)   20.0720     
+
+(N15140)    4.6738 (N16719)    1.6625 (N16874)    1.0358 (N26301)     .5115     
+
+(N28006)    4.3210 (N29483)    3.3250 (N31009)    4.3038 (N37557)   23.5020     
+
+(N37561)   12.5430 (N37917)    4.4453 (N41118)    3.3250 (N41323)     .5458     
+
+(N41345)     .6353 (N43205)    3.9936 (N43209)    3.6834 (N43213)    3.3732     
+
+(N43515)    3.0630 (N43721)   18.3190 (N43882)    3.1698 (N43886)    8.8508     
+
+(N49053)    4.3153 (N040671)    3.4090                   (N040831)    2.5143    
+
+(N164851)    3.3728                   (N262161)     .7785                       
+
+(N309461)    4.3095                   (N407651)    2.4248                       
+
+(N407811)    1.5300                   (N410731)    3.3363                       
+
+(N412771)     .4563                   (N420231)    2.8086                       
+
+(N437131)   14.5320                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.720E-02
+
+    TOTAL POWER DISSIPATION   1.13E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/15/23 12:48:21 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf_120"  [ d:\proiectul_meu\proiect-PSpiceFiles\SCHEMATIC1\psf_120.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+
