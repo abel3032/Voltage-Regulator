@@ -1,0 +1,79 @@
+Wed Dec 06 18:04:05 2023				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Wed Dec 06 18:04:05 2023
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : PCB_STABILIZATOR_EFTIMIE1.brd                 )
+(    Software Version : 16.6-2015S059                                 )
+(    Date/Time        : Wed Dec 06 18:04:05 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Dec 06 18:04:05 2023				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'D:/proiectul_meu/allegro/PCB_STABILIZATOR_EFTIMIE1.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ORCADADV/share/local/pcb/symbols 
+           D:/ORCADADV/share/pcb/pcb_lib/symbols 
+           D:/ORCADADV/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ORCADADV/share/local/pcb/padstacks 
+           D:/ORCADADV/share/pcb/pcb_lib/symbols 
+           D:/ORCADADV/share/pcb/allegrolib/symbols 
+
+
+------ Symbol Refresh Messages ------
+
+'DPACK'  symbol refreshed successfully.
+'SMR2512'  symbol refreshed successfully.
+'SMR0805'  symbol refreshed successfully.
+'SMD0805'  symbol refreshed successfully.
+'TS53YL'  symbol refreshed successfully.
+'TO236AA'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 6 out 6
+    Design updated.
+

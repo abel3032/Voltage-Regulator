@@ -1,0 +1,16 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : PCB_STABILIZATOR_EFTIMIE1.brd                 )
+(    Software Version : 16.6-2015S059                                 )
+(    Date/Time        : Sun Dec 10 20:53:33 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING Deleted redundant via at (1066.00 995.00) on net N64391.
+WARNING Deleted redundant via at (1278.00 442.00) on net N64259.
+WARNING Deleted redundant via at (148.00 797.00) on net N64259.
+
+3 warnings, 0 errors detected, 0 errors could be fixed.

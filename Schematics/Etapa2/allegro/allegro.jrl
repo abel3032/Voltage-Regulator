@@ -1,0 +1,23 @@
+\t (00:00:03) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:03)     Journal start - Sun Dec 10 21:28:15 2023
+\t (00:00:03)         Host=LAPTOP-O068RKQI User=alber Pid=28100 CPUs=8
+\t (00:00:03) CmdLine= D:\ORCADADV\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:03) 
+\t (00:00:03) Opening existing design...
+\d (00:00:06) Design opened: D:/proiectul_meu/allegro/PCB_STABILIZATOR_EFTIMIE1.brd
+\t (00:00:06) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:00:06) trapsize 1784
+\i (00:00:06) trapsize 1742
+\i (00:00:07) trapsize 1791
+\i (00:00:07) trapsize 1835
+\t (00:00:07) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:00:07) trapsize 1835
+\i (00:00:07) generaledit 
+\i (00:00:26) open 
+\i (00:00:40) fillin "C:\Users\alber\OneDrive\Desktop\P1_2023_432D_Eftimie_Albert_Gabriele_SERS_N12_OrCad\P1_2023_432D_Eftimie_Albert_Gabriele_SERS_N12_OrCad\Layout\PCB_STABILIZATOR_EFTIMIE1.brd"
+\i (00:00:40) cd "C:\Users\alber\OneDrive\Desktop\P1_2023_432D_Eftimie_Albert_Gabriele_SERS_N12_OrCad\P1_2023_432D_Eftimie_Albert_Gabriele_SERS_N12_OrCad\Layout"
+\t (00:00:40) Opening existing design...
+\t (00:00:40) Grids are drawn 256.00, 256.00 apart for enhanced viewability.
+\t (00:00:40) Grids are drawn 32.00, 32.00 apart for enhanced viewability.
+\i (00:00:40) trapsize 3670
+\t (00:00:40)     Journal end - Sun Dec 10 21:28:52 2023

@@ -1,0 +1,510 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Dec-06-2023 at 01:54:38 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PCB_STABILIZATOR_EFTIMIE';
+ POST_TIME='Aug  3 2015 18:16:55';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ D2 'BZX84-C5V1_3_TO236AA_BZX84-C5V1':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64997@PCB_STABILIZATOR_EFTIMIE.BZX84-C5V1_3.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64997@pcb_stabilizator_eftimie.\bzx84-c5v1_3.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64997@pcb_stabilizator_eftimie.\bzx84-c5v1_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'SMLS14BET_3_SMD0805_SMLS14BET':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64237@PCB_STABILIZATOR_EFTIMIE.SMLS14BET_3.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64237@pcb_stabilizator_eftimie.\smls14bet_3.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64237@pcb_stabilizator_eftimie.\smls14bet_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'SMLS14BET_2_SMD0805_SMLS14BET':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64359@PCB_STABILIZATOR_EFTIMIE.SMLS14BET_2.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64359@pcb_stabilizator_eftimie.\smls14bet_2.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64359@pcb_stabilizator_eftimie.\smls14bet_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65821@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65821@connector.\con2.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65821@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS66694@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins66694@connector.\con2.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins66694@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'QBC856B_0_TO236AA_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65105@PCB_STABILIZATOR_EFTIMIE.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65105@pcb_stabilizator_eftimie.\qbc856b_0.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65105@pcb_stabilizator_eftimie.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'QBC856B_0_TO236AA_QBC856B':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65131@PCB_STABILIZATOR_EFTIMIE.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65131@pcb_stabilizator_eftimie.\qbc856b_0.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65131@pcb_stabilizator_eftimie.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q3 'QBC846B_0_TO236AA_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65157@PCB_STABILIZATOR_EFTIMIE.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65157@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65157@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q4 'QBC846B_0_TO236AA_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65183@PCB_STABILIZATOR_EFTIMIE.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65183@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65183@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q5 'QBC846B_0_TO236AA_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65209@PCB_STABILIZATOR_EFTIMIE.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65209@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65209@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q6 'QBC846B_0_TO236AA_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65235@PCB_STABILIZATOR_EFTIMIE.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65235@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65235@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q7 'QBC846B_0_TO236AA_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS63709@PCB_STABILIZATOR_EFTIMIE.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins63709@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins63709@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q8 'QBC846B_0_TO236AA_QBC846B':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS63793@PCB_STABILIZATOR_EFTIMIE.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins63793@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins63793@pcb_stabilizator_eftimie.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q9 'QMJD31C_0_DPACK_QMJD31C':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64823@PCB_STABILIZATOR_EFTIMIE.QMJD31C_0.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64823@pcb_stabilizator_eftimie.\qmjd31c_0.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64823@pcb_stabilizator_eftimie.\qmjd31c_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_SMR0805_100':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65017@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65017@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65017@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_SMR0805_510':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65265@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65265@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65265@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS63759@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins63759@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins63759@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_SMR0805_0.47':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64925@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64925@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64925@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_SMR0805_0.47':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64777@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64777@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64777@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_SMR0805_5.6K':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64307@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64307@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64307@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_SMR0805_220':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64045@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64045@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64045@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_SMR0805_68':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64073@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64073@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64073@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'POT_TS53YL_10K':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64329@BREAKOUT.POT.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64329@breakout.\pot.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64329@breakout.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64425@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64425@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64425@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'R_SMR0805_100':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64493@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64493@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64493@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_SMR0805_2K':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64977@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64977@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64977@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'R_SMR0805_100':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64515@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64515@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64515@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'R_SMR0805_10':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS63983@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins63983@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins63983@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'R_SMR0805_100':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64005@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64005@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64005@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'R_SMR0805_100':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64099@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64099@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64099@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'R_SMR0805_10':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64143@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64143@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64143@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'R_SMR0805_51':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64177@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64177@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64177@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65037@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65037@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65037@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R32 'R_SMR0805_330':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64405@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64405@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64405@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R33 'R_SMR0805_100':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64549@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64549@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64549@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 'R_SMR0805_100':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64575@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64575@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64575@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R35 'R_SMR0805_100':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64597@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64597@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64597@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R36 'R_SMR0805_100':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64627@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64627@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64627@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R37 'R_SMR0805_82':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64677@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64677@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64677@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R38 'R_SMR0805_220':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64705@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64705@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64705@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R39 'R_SMR0805_330':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64725@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64725@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64725@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_SMR0805_3.9K':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS63921@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins63921@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins63921@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R40 'R_SMR0805_330':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64757@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64757@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64757@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R41 'R_SMR0805_0.47':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64947@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64947@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64947@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R42 'R_SMR0805_33':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS63857@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins63857@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins63857@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_SMR0805_680':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS65073@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins65073@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins65073@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_SMR0805_220':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64879@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64879@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64879@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_SMR0805_220':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS64899@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins64899@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins64899@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_SMR0805_100':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS63901@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins63901@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins63901@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_SMR0805_8.2K':;
+
+SECTION_NUMBER 1
+ '@PCB_STABILIZATOR_EFTIMIE.SCHEMATIC1(SCH_1):INS63735@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):ins63735@analog.\r.normal\(chips)',
+ P_PATH='@pcb_stabilizator_eftimie.schematic1(sch_1):page1_ins63735@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
